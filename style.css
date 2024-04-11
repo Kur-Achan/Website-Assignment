@@ -1,0 +1,42 @@
+.topnav{
+    display: flex;
+}
+#gown{
+    display: flex;
+}
+#btn{
+    color:red;
+    border-radius: 45%;
+}
+.content{
+    display: flex;
+    margin-left: 20%;
+    gap: 5%;
+}
+#footer{
+    display: flex;
+    margin-left: 20%;
+    gap: 5%;
+
+
+}@media  screen and (min-width: 400px) and
+(max-width: 1200px) {
+.topnav{
+    flex-direction: column;
+}
+.content{
+    flex-direction: column;
+}
+#footer{
+    flex-direction: column;
+}
+#btn{
+flex-direction: column;
+}
+
+
+
+}
+  
+
+     
