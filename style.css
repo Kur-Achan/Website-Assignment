@@ -1,8 +1,12 @@
 .topnav{
     display: flex;
+    gap: 5%;
 }
 #gown{
     display: flex;
+}
+#home{
+    color: red;
 }
 #btn{
     color:red;
@@ -12,11 +16,25 @@
     display: flex;
     margin-left: 20%;
     gap: 5%;
+    margin-top:5%;
+}
+#button3{
+    border-radius: 20%;
+}
+#btn4{
+background-color: hotpink;
+color: aliceblue;
+border-radius: 20%;
+padding: 15%,30%;
+}
+.services{
+    display: flex;
 }
 #footer{
     display: flex;
     margin-left: 20%;
     gap: 5%;
+    margin-top: 5%;
 
 
 }@media  screen and (min-width: 400px) and
@@ -33,9 +51,6 @@
 #btn{
 flex-direction: column;
 }
-
-
-
 }
   
 
