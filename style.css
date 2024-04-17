@@ -1,6 +1,9 @@
-.topnav{
+.navbar{
     display: flex;
     gap: 5%;
+    margin-left: 5%;
+
+
 }
 #gown{
     display: flex;
@@ -11,30 +14,45 @@
 #btn{
     color:red;
     border-radius: 45%;
+    width: 80px;
+}
+#button{
+   background-color: hotpink;
+    border-radius:  45%;
+    width: 80px;
+    
 }
 .content{
     display: flex;
-    margin-left: 20%;
-    gap: 5%;
+    margin-left: 15%;
+    gap: 15%;
     margin-top:5%;
+    font-size: xx-large;
 }
-#button3{
-    border-radius: 20%;
+#en{
+    margin-left: -16%;
+    border-radius: 10%;
+    width: 90px;
+    background-color: hotpink;
+    color: aliceblue;
 }
-#btn4{
-background-color: hotpink;
-color: aliceblue;
-border-radius: 20%;
-padding: 15%,30%;
+#man{
+ width: 600px;   
+}
+
+#p1{
+padding: 2px,10px,2px,10px;
 }
 .services{
     display: flex;
+    font-size: medium;
 }
-#footer{
+.logos{
     display: flex;
-    margin-left: 20%;
-    gap: 5%;
+    margin-left: 10%;
+    gap: 10%;
     margin-top: 5%;
+    font-size: xx-large;
 
 
 }@media  screen and (min-width: 400px) and
@@ -45,7 +63,7 @@ padding: 15%,30%;
 .content{
     flex-direction: column;
 }
-#footer{
+.logos{
     flex-direction: column;
 }
 #btn{
