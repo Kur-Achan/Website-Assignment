@@ -1,26 +1,36 @@
-.navbar{
+/* .navbar{
     display: flex;
     gap: 5%;
     margin-left: 5%;
+ */
 
 
+.icon,
+h5 {
+    color: green;
+}
+.links a:hover,
+.icon:hover {
+    background-color: orange;
+    color: white;
+    transition: 0.4s all linear;
+}
+#login{
+    color:red;
+    border-radius: 45%;
+    width: 80px;   
+}
+#joinnow{
+    background-color: hotpink;
+    border-radius:  85%;
+    width: 85%; 
+    height: 5%;  
 }
 #gown{
     display: flex;
 }
 #home{
     color: red;
-}
-#btn{
-    color:red;
-    border-radius: 45%;
-    width: 80px;
-}
-#button{
-   background-color: hotpink;
-    border-radius:  45%;
-    width: 80px;
-    
 }
 .content{
     display: flex;
@@ -32,7 +42,8 @@
 #en{
     margin-left: -16%;
     border-radius: 10%;
-    width: 90px;
+    width: 45%;
+    height: 10%;
     background-color: hotpink;
     color: aliceblue;
 }
@@ -55,20 +66,27 @@ padding: 2px,10px,2px,10px;
     font-size: xx-large;
 
 
-}@media  screen and (min-width: 400px) and
-(max-width: 1200px) {
-.topnav{
-    flex-direction: column;
-}
+}@media  screen and (min-width: 350px) and
+(max-width: 780px) {
 .content{
     flex-direction: column;
 }
 .logos{
     flex-direction: column;
 }
+#man{
+    width: 200px;
+}
+    
 #btn{
 flex-direction: column;
 }
+}@media  screen and (min-width: 380px) and
+(max-width: 1200px) {
+    content{
+        flex-direction: column;
+
+        }
 }
   
 
