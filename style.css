@@ -24,7 +24,7 @@ h5 {
 #name{
  border-radius: 40px; 
  font-size: medium; 
- padding: 12px 20px 12px 20px; 
+ padding: 5px  15px; 
  margin-top: -1%;
 }
 #joinnow{
@@ -48,11 +48,13 @@ h5 {
     font-size: xx-large;
 }
 #en{
-    margin-left: -84px;
+    padding: 1px 1px;
+    margin-left: -86px;
     border-radius: 40px;
     background-color: hotpink;
     color: aliceblue;
     margin-top: -3%;
+    font-size: 20px;
     
 }
 #man{
